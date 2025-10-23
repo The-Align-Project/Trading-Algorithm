@@ -15,7 +15,7 @@
 
 **Before:**
 ```
-Version 4WD (Working Dependencies)/
+Version-4WD-Working-Dependencies/
 ├── Backtest/
 ├── Live Trading/
 ├── Simulations/
@@ -24,7 +24,7 @@ Version 4WD (Working Dependencies)/
 
 **After:**
 ```
-Version 4WD (Working Dependencies)/
+Version-4WD-Working-Dependencies/
 ├── results/
 │   ├── backtest/      # All backtest results
 │   ├── live/          # Live trading reports
