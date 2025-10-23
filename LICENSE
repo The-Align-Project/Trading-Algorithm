@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 The Align Project
+Copyright (c) 2025 Florian Braun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,41 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-DISCLAIMER: FINANCIAL TRADING RISKS
-
-This software is provided for educational and research purposes only. 
-
-IMPORTANT RISK DISCLOSURES:
-
-1. NO FINANCIAL ADVICE: This software does not provide financial, investment, 
-   trading, or other advice. Any information provided is for educational 
-   purposes only.
-
-2. TRADING RISKS: Trading stocks, securities, and other financial instruments 
-   involves substantial risk of loss. You may lose some or all of your 
-   invested capital.
-
-3. NO GUARANTEES: Past performance does not guarantee future results. The 
-   software's historical performance in backtests or simulations does not 
-   guarantee similar results in live trading.
-
-4. USE AT YOUR OWN RISK: By using this software, you acknowledge and accept 
-   all risks associated with algorithmic trading. The authors and contributors 
-   are not responsible for any financial losses incurred through the use of 
-   this software.
-
-5. REGULATORY COMPLIANCE: Users are responsible for ensuring their trading 
-   activities comply with all applicable laws and regulations in their 
-   jurisdiction.
-
-6. TESTING REQUIRED: Always thoroughly test any trading algorithm in paper 
-   trading or simulation mode before risking real capital.
-
-7. PROFESSIONAL ADVICE: Consult with qualified financial professionals before 
-   making investment decisions.
-
-By using this software, you agree to these terms and acknowledge that you 
-understand and accept the risks involved in algorithmic trading.
