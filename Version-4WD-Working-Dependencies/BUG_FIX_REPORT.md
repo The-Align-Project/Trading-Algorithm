@@ -172,7 +172,7 @@ But it **never actually analyzed the symbols**, so signals would always be 0.
 
 ## Files Modified
 
-- `/Users/florianbraun/Documents/Algorithmic Trading/Version 4WD (Working Dependencies)/trading_engine.py`
+- `/Users/florianbraun/Documents/Algorithmic Trading/Version-4WD-Working-Dependencies/trading_engine.py`
   - Method: `run_single_iteration()` (lines ~306-391)
   - Added: ~45 lines of signal analysis and execution logic
 
