@@ -49,6 +49,7 @@ results/
 
 # API Keys and Credentials (IMPORTANT!)
 .env
+.env.local
 config_local.py
 *_credentials.json
 api_keys.txt
