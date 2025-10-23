@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+trading_bot*.log
+logs/
+*.log.*
+
+# Trading data and reports
+performance_report_*.txt
+backtest_results_*.txt
+trades_*.csv
+results/
+!results/.gitkeep
+
+# API Keys and Credentials (IMPORTANT!)
+.env
+config_local.py
+*_credentials.json
+api_keys.txt
+*_agreement.pdf
+customer_agreement.pdf
+crypto_agreement.pdf
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# Project-specific files
+Unknown.pdf
+*.pdf
