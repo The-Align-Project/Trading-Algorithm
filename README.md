@@ -59,7 +59,7 @@ cd "Algorithmic Trading"
 
 ```bash
 # Navigate to the working version
-cd Version-4WD-Working-Dependencies
+cd "Version 4WD (Working Dependencies)"
 
 # Install required dependencies
 pip install pandas numpy
@@ -101,7 +101,7 @@ Algorithmic Trading/
 ├── Version 2FW (Fully Working API)/ # Stable API version
 ├── Version 3E (Error API)/          # Enhanced features
 ├── Version 4 (Dependencies)/        # Modular architecture
-└── Version-4WD-Working-Dependencies/ ⭐ CURRENT VERSION
+└── Version 4WD (Working Dependencies)/ ⭐ CURRENT VERSION
     ├── main.py                      # Main entry point
     ├── config.py                    # Configuration and settings
     ├── trading_engine.py            # Core trading logic
@@ -392,9 +392,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📖 Read the [detailed documentation](Version-4WD-Working-Dependencies/README.md)
-- 🚀 Check the [Quick Start Guide](Version-4WD-Working-Dependencies/QUICK_START.md)
-- 🐛 Review [Bug Fix Reports](Version-4WD-Working-Dependencies/BUG_FIX_REPORT.md)
+- 📖 Read the [detailed documentation](Version%204WD%20(Working%20Dependencies)/README.md)
+- 🚀 Check the [Quick Start Guide](Version%204WD%20(Working%20Dependencies)/QUICK_START.md)
+- 🐛 Review [Bug Fix Reports](Version%204WD%20(Working%20Dependencies)/BUG_FIX_REPORT.md)
 - 💬 Submit issues via GitHub
 
 ## 🗺️ Roadmap
