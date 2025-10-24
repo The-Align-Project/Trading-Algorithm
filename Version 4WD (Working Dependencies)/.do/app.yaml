@@ -1,0 +1,68 @@
+name: trading-algorithm
+region: nyc
+
+services:
+  - name: trading-bot
+    # Use Python buildpack
+    build_command: pip install -r requirements.txt
+    run_command: bash run.sh
+    
+    # Instance configuration
+    instance_count: 1
+    instance_size_slug: basic-xxs  # Start small, scale up if needed
+    
+    # Health check (optional)
+    health_check:
+      http_path: /health
+      initial_delay_seconds: 60
+      period_seconds: 30
+      timeout_seconds: 10
+      success_threshold: 1
+      failure_threshold: 3
+    
+    # Environment variables (set in DigitalOcean dashboard)
+    envs:
+      - key: ALPACA_API_KEY
+        scope: RUN_TIME
+        type: SECRET
+      
+      - key: ALPACA_SECRET_KEY
+        scope: RUN_TIME
+        type: SECRET
+      
+      - key: WATCHLIST
+        value: "AAPL,MSFT,GOOGL,TSLA,NVDA"
+        scope: RUN_TIME
+      
+      - key: INITIAL_CAPITAL
+        value: "100000"
+        scope: RUN_TIME
+      
+      - key: CHECK_INTERVAL
+        value: "300"
+        scope: RUN_TIME
+      
+      - key: PAPER_TRADING
+        value: "true"
+        scope: RUN_TIME
+      
+      - key: PYTHONUNBUFFERED
+        value: "1"
+        scope: RUN_TIME
+    
+    # Source code
+    github:
+      repo: The-Align-Project/Trading-Algorithm
+      branch: main
+      deploy_on_push: true
+    
+    # Logs
+    log_destinations:
+      - name: trading-logs
+        papertrail:
+          endpoint: syslog+tls://logs.papertrailapp.com:12345  # Replace with your endpoint
+
+# Alerts (optional)
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
